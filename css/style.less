@@ -14,7 +14,7 @@ body {
     background-color: #0b1f20;
 }
 
-.link-struct(@pic) {
+.link-struct() {
     display: grid;
     grid-template-columns: 52px 1fr;
     grid-template-rows: 1fr 1fr;
@@ -22,8 +22,6 @@ body {
     .icon {
         grid-row-start: 1;
         grid-row-end: 3;
-        background-image: url(@pic);
-        background-size: cover;
         width: 52px;
         height: 52px;
     }
@@ -92,25 +90,8 @@ header {
         .value {
             font-size: 1.1rem;
         }
-        .github {
-            .link {
-                .link-struct('@{img-dir}github.svg');
-            }
-        }
-        .mail {
-            .link {
-                .link-struct('@{img-dir}mail.svg');
-            }
-        }
-        .telegram {
-            .link {
-                .link-struct('@{img-dir}telegram.svg');
-            }
-        }
-        .location {
-            .link {
-                .link-struct('@{img-dir}location.svg');
-            }
+        .link {
+            .link-struct();
         }
     }
   }

@@ -382,95 +382,24 @@ header .contacts .label {
 header .contacts .value {
   font-size: 1.1rem;
 }
-header .contacts .github .link {
+header .contacts .link {
   display: grid;
   grid-template-columns: 52px 1fr;
   grid-template-rows: 1fr 1fr;
   grid-column-gap: 15px;
 }
-header .contacts .github .link .icon {
+header .contacts .link .icon {
   grid-row-start: 1;
   grid-row-end: 3;
-  background-image: url('../img/github.svg');
-  background-size: cover;
   width: 52px;
   height: 52px;
 }
-header .contacts .github .link .label {
+header .contacts .link .label {
   grid-column: 2;
   display: grid;
   align-items: center;
 }
-header .contacts .github .link .value {
-  grid-column: 2;
-  grid-row: 2;
-}
-header .contacts .mail .link {
-  display: grid;
-  grid-template-columns: 52px 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-column-gap: 15px;
-}
-header .contacts .mail .link .icon {
-  grid-row-start: 1;
-  grid-row-end: 3;
-  background-image: url('../img/mail.svg');
-  background-size: cover;
-  width: 52px;
-  height: 52px;
-}
-header .contacts .mail .link .label {
-  grid-column: 2;
-  display: grid;
-  align-items: center;
-}
-header .contacts .mail .link .value {
-  grid-column: 2;
-  grid-row: 2;
-}
-header .contacts .telegram .link {
-  display: grid;
-  grid-template-columns: 52px 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-column-gap: 15px;
-}
-header .contacts .telegram .link .icon {
-  grid-row-start: 1;
-  grid-row-end: 3;
-  background-image: url('../img/telegram.svg');
-  background-size: cover;
-  width: 52px;
-  height: 52px;
-}
-header .contacts .telegram .link .label {
-  grid-column: 2;
-  display: grid;
-  align-items: center;
-}
-header .contacts .telegram .link .value {
-  grid-column: 2;
-  grid-row: 2;
-}
-header .contacts .location .link {
-  display: grid;
-  grid-template-columns: 52px 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-column-gap: 15px;
-}
-header .contacts .location .link .icon {
-  grid-row-start: 1;
-  grid-row-end: 3;
-  background-image: url('../img/location.svg');
-  background-size: cover;
-  width: 52px;
-  height: 52px;
-}
-header .contacts .location .link .label {
-  grid-column: 2;
-  display: grid;
-  align-items: center;
-}
-header .contacts .location .link .value {
+header .contacts .link .value {
   grid-column: 2;
   grid-row: 2;
 }
