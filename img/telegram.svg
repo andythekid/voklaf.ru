@@ -1,96 +1,20 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="13.758333mm"
-   height="13.758333mm"
-   viewBox="0 0 13.758333 13.758333"
-   version="1.1"
-   id="svg315"
-   inkscape:version="0.92.2 2405546, 2018-03-11"
-   sodipodi:docname="telegram.svg">
-  <defs
-     id="defs309">
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath134">
-      <path
-         d="M 0,1534.582 H 2728.576 V 0 H 0 Z"
-         id="path132"
-         inkscape:connector-curvature="0" />
-    </clipPath>
-  </defs>
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="-718.28569"
-     inkscape:cy="-105.42861"
-     inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0"
-     inkscape:window-width="1920"
-     inkscape:window-height="1016"
-     inkscape:window-x="0"
-     inkscape:window-y="27"
-     inkscape:window-maximized="1" />
-  <metadata
-     id="metadata312">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(-120.87678,-107.18035)">
-    <g
-       transform="matrix(0.16235937,0,0,-0.16235937,-23.366223,214.80602)"
-       id="g128">
-      <g
-         id="g130"
-         clip-path="url(#clipPath134)">
-        <g
-           id="g136"
-           transform="translate(942.8572,636.0061)">
-          <path
-             d="m 0,0 -25.954,-16.093 c -0.457,-0.286 -0.664,-0.843 -0.506,-1.355 l 3.482,-11.216 c 0.073,-0.239 0.417,-0.203 0.446,0.042 l 0.845,7.523 c 0.031,0.292 0.172,0.557 0.392,0.752 L 0.681,-0.916 C 1.209,-0.446 0.596,0.373 0,0"
-             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="path138"
-             inkscape:connector-curvature="0" />
-        </g>
-        <g
-           id="g140"
-           transform="translate(952.7361,640.8945)">
-          <path
-             d="m 0,0 -8.079,-38.616 c -0.377,-1.814 -2.503,-2.627 -3.996,-1.535 l -12.197,8.957 -6.216,-6.35 c -1.09,-1.112 -2.976,-0.662 -3.444,0.824 l -4.486,14.238 -12.023,3.548 c -1.58,0.469 -1.671,2.667 -0.138,3.266 L -3.266,2.768 C -1.467,3.469 0.396,1.895 0,0 m -21.948,21.991 c -23.4,0 -42.37,-18.97 -42.37,-42.37 0,-23.4 18.97,-42.37 42.37,-42.37 23.4,0 42.37,18.97 42.37,42.37 0,23.4 -18.97,42.37 -42.37,42.37"
-             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="path142"
-             inkscape:connector-curvature="0" />
-        </g>
-      </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13.758mm" height="13.758mm" version="1.1" viewBox="0 0 13.758 13.758" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <clipPath id="clipPath134">
+   <path d="m0 1534.6h2728.6v-1534.6h-2728.6z"/>
+  </clipPath>
+ </defs>
+ <g transform="translate(-120.88 -107.18)">
+  <g transform="matrix(.16236 0 0 -.16236 -23.366 214.81)">
+   <g clip-path="url(#clipPath134)">
+    <g transform="translate(942.86 636.01)">
+     <path d="m0 0-25.954-16.093c-0.457-0.286-0.664-0.843-0.506-1.355l3.482-11.216c0.073-0.239 0.417-0.203 0.446 0.042l0.845 7.523c0.031 0.292 0.172 0.557 0.392 0.752l21.976 19.431c0.528 0.47-0.085 1.289-0.681 0.916" fill="#fff"/>
     </g>
+    <g transform="translate(952.74 640.89)">
+     <path d="m0 0-8.079-38.616c-0.377-1.814-2.503-2.627-3.996-1.535l-12.197 8.957-6.216-6.35c-1.09-1.112-2.976-0.662-3.444 0.824l-4.486 14.238-12.023 3.548c-1.58 0.469-1.671 2.667-0.138 3.266l47.313 18.436c1.799 0.701 3.662-0.873 3.266-2.768m-21.948 21.991c-23.4 0-42.37-18.97-42.37-42.37s18.97-42.37 42.37-42.37 42.37 18.97 42.37 42.37-18.97 42.37-42.37 42.37" fill="#fff"/>
+    </g>
+   </g>
   </g>
+ </g>
 </svg>
