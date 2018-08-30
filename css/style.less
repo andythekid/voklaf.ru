@@ -1,0 +1,117 @@
+@import (less) "normalize.css";
+@import "fonts.less";
+
+@img-dir: '../img/';
+@main-color: #9fc1c3;
+@link-color: #fff;
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #0b1f20;
+}
+
+.link-struct(@pic) {
+    display: grid;
+    grid-template-columns: 52px 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 15px;
+    .icon {
+        grid-row-start: 1;
+        grid-row-end: 3;
+        background-image: url(@pic);
+        background-size: cover;
+        width: 52px;
+        height: 52px;
+    }
+    .label {
+        grid-column: 2;
+        display: grid;
+        align-items: center;
+    }
+    .value {
+        grid-column: 2;
+        grid-row: 2;
+    }
+}
+
+header {
+    @media screen and (min-device-height: 600px) {
+        height: 100vh;
+    }
+    background-image: url('@{img-dir}bg.png');
+    background-size: cover;
+    color: @main-color;
+    .main-font;
+    display: grid;
+    grid-template-columns: auto minmax(275px, 550px) auto;
+    @media screen and (min-device-height: 768px) {
+        grid-template-rows: 430px auto;
+    }
+    @media screen and (max-device-height: 767px) {
+        grid-template-rows: 300px auto;
+    }
+    a {
+        text-decoration: none;
+        color: @link-color;
+        .label {
+            color: @main-color;
+        }
+    }
+    .logo {
+        grid-column: 2;
+        align-self: center;
+        justify-self: center;
+        .image {
+            display: grid;
+            justify-content: center;
+        }
+        h1 {
+            font-size: 1.8rem;
+            font-weight:normal;
+        }
+    }
+    .contacts {
+        grid-row: 2;
+        grid-column: 2;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(auto-fill, 275px) ;
+        grid-auto-rows: 50px;
+        grid-row-gap: 40px;
+        margin-bottom: 30px;
+        .at {
+            .at-font;
+        }
+        .label {
+            font-size: 0.7rem;
+        }
+        .value {
+            font-size: 1.1rem;
+        }
+        .github {
+            .link {
+                .link-struct('@{img-dir}github.svg');
+            }
+        }
+        .mail {
+            .link {
+                .link-struct('@{img-dir}mail.svg');
+            }
+        }
+        .telegram {
+            .link {
+                .link-struct('@{img-dir}telegram.svg');
+            }
+        }
+        .location {
+            .link {
+                .link-struct('@{img-dir}location.svg');
+            }
+        }
+    }
+  }
+  
